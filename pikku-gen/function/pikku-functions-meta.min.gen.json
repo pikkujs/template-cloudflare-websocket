@@ -1,0 +1,73 @@
+{
+  "onConnect": {
+    "pikkuFuncName": "onConnect",
+    "inputSchemaName": "OnConnectInput",
+    "outputSchemaName": null
+  },
+  "onDisconnect": {
+    "pikkuFuncName": "onDisconnect",
+    "inputSchemaName": null,
+    "outputSchemaName": null
+  },
+  "authenticate": {
+    "pikkuFuncName": "authenticate",
+    "inputSchemaName": "AuthenticateInput",
+    "outputSchemaName": "AuthenticateOutput"
+  },
+  "logout": {
+    "pikkuFuncName": "logout",
+    "inputSchemaName": null,
+    "outputSchemaName": null
+  },
+  "subscribe": {
+    "pikkuFuncName": "subscribe",
+    "inputSchemaName": "SubscribeInput",
+    "outputSchemaName": null
+  },
+  "unsubscribe": {
+    "pikkuFuncName": "unsubscribe",
+    "inputSchemaName": "UnsubscribeInput",
+    "outputSchemaName": "UnsubscribeOutput"
+  },
+  "emitMessage": {
+    "pikkuFuncName": "emitMessage",
+    "inputSchemaName": "EmitMessageInput",
+    "outputSchemaName": "EmitMessageOutput"
+  },
+  "onMessage": {
+    "pikkuFuncName": "onMessage",
+    "inputSchemaName": "OnMessageInput",
+    "outputSchemaName": "OnMessageOutput"
+  },
+  "progressiveEnhancementExample": {
+    "pikkuFuncName": "progressiveEnhancementExample",
+    "inputSchemaName": null,
+    "outputSchemaName": "ProgressiveEnhancementExampleOutput"
+  },
+  "welcomeToPikku": {
+    "pikkuFuncName": "welcomeToPikku",
+    "inputSchemaName": null,
+    "outputSchemaName": "string"
+  },
+  "helloWorld": {
+    "pikkuFuncName": "helloWorld",
+    "inputSchemaName": null,
+    "outputSchemaName": "string"
+  },
+  "rpcTest": {
+    "pikkuFuncName": "rpcTest",
+    "inputSchemaName": "RpcTestInput",
+    "outputSchemaName": null,
+    "expose": true
+  },
+  "rpcCaller": {
+    "pikkuFuncName": "rpcCaller",
+    "inputSchemaName": "RpcCallerInput",
+    "outputSchemaName": null
+  },
+  "pikkuFn_rpc_wiring_ts_L30C9": {
+    "pikkuFuncName": "pikkuFn_rpc_wiring_ts_L30C9",
+    "inputSchemaName": "PikkuFn_rpc_wiring_ts_L30C9Input",
+    "outputSchemaName": null
+  }
+}

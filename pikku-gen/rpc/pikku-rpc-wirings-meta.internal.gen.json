@@ -1,0 +1,15 @@
+{
+  "onConnect": "onConnect",
+  "onDisconnect": "onDisconnect",
+  "authenticate": "authenticate",
+  "logout": "logout",
+  "subscribe": "subscribe",
+  "unsubscribe": "unsubscribe",
+  "emitMessage": "emitMessage",
+  "onMessage": "onMessage",
+  "progressiveEnhancementExample": "progressiveEnhancementExample",
+  "welcomeToPikku": "welcomeToPikku",
+  "helloWorld": "helloWorld",
+  "rpcTest": "rpcTest",
+  "rpcCaller": "rpcCaller"
+}
