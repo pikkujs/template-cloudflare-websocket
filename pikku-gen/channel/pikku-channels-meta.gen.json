@@ -1,0 +1,40 @@
+{
+  "todos-live": {
+    "name": "todos-live",
+    "route": "/",
+    "input": null,
+    "connect": {
+      "pikkuFuncId": "onConnect"
+    },
+    "disconnect": {
+      "pikkuFuncId": "onDisconnect"
+    },
+    "message": null,
+    "messageWirings": {
+      "action": {
+        "auth": {
+          "pikkuFuncId": "login"
+        },
+        "subscribe": {
+          "pikkuFuncId": "subscribe"
+        },
+        "unsubscribe": {
+          "pikkuFuncId": "unsubscribe"
+        },
+        "list": {
+          "pikkuFuncId": "listTodos"
+        },
+        "create": {
+          "pikkuFuncId": "createTodo"
+        },
+        "complete": {
+          "pikkuFuncId": "completeTodo"
+        }
+      }
+    },
+    "tags": [
+      "realtime",
+      "todos"
+    ]
+  }
+}
